@@ -1,0 +1,84 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: 16px;
+  max-width: 355px;
+  max-height: 667px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-height: 65px;
+  color: #364844;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  background-color: #F6F6F6;
+}
+.header__btn {
+  border: none;
+  background-color: #f6f6f6;
+}
+.header__btn:hover {
+  background-color: rgb(209, 204, 204);
+}
+.header__btn:active {
+  background-color: rgb(228, 222, 222);
+}
+.header__logo {
+  margin-right: 30px;
+}
+.header #header__phone {
+  font-size: 1.5rem;
+  font-family: "PT Sans Caption";
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+.header #header__city {
+  font-size: 1.2rem;
+  font-family: "PT Sans Caption";
+  text-align: right;
+}
+
+.main {
+  font-size: 0;
+  background-color: rgba(69, 146, 127, 0.8980392157);
+  background-image: "/images/room.png";
+  max-height: 288px;
+}
+.main__btn {
+  font-size: 1.2rem;
+  font-family: "PT Sans Caption";
+  font-weight: bold;
+  background-color: #F6F6F6;
+  border-color: #F6F6F6;
+  border-radius: 50px;
+  color: #1FA181;
+  margin-bottom: 312px;
+  margin-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.nav {
+  list-style: none;
+  padding-left: 20px;
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+.nav__item {
+  margin-bottom: 10px;
+}
+.nav__link {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-family: "PT Sans Caption";
+}/*# sourceMappingURL=style.css.map */
