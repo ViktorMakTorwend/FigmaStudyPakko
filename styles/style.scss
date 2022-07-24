@@ -6,7 +6,7 @@ html {
 
 body {
     font-size: 16px;
-    max-width: 355px;
+    max-width: 375px;
     max-height: 667px;
 }  
 
@@ -70,30 +70,10 @@ body {
         padding-right: 25px;
     }
 
-    &__btn:active {
-        box-shadow: 1px 1px 3px black;
-    }
+
 }
 
-.backgroundColorMain {
-  background-color:  $backGroundColMain;
-}
 
-.nav {
-    list-style: none;
-    padding-left: 20px;
-    padding-top: 50px;
-    padding-bottom: 40px;
-    &__item {
-        margin-bottom: 10px;
-    }
-    &__link {
-        color: $mainColText;
-        text-decoration: none;
-        font-size: 1.6rem;
-        font-family: "PT Sans Caption";
-    }
-}
 
 .footer {
     max-height: 313px;
@@ -102,26 +82,20 @@ body {
 #footDivTitle {
     font-size: 2.2rem;
     font-family: "PT Sans Caption";
-    color: transparent;
-    text-shadow: 0 0 3px rgba(0,0,0,0.5);
 
     padding-left: 20px;
     padding-right: 90px;
     padding-bottom: 20px;
     padding-top: 30px;
-    opacity: 0.7;
 }
 
 #footDivText {
     font-size: 1.6rem;
     font-family: "PT Sans Caption";
-    color: transparent;
-    text-shadow: 0 0 4px rgba(0,0,0,0.5);
-
+ 
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 70px;
-    opacity: 0.5;
     text-align: justify;
 
 }
