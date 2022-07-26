@@ -43,7 +43,7 @@ body {
 
 .main {
   font-size: 0;
-  background-image: url("/FigmaStudyPakko/images/room.svg");
+  background-image: url (styles/room.svg);
   max-height: 288px; 
 }
 
